@@ -6,11 +6,17 @@
 }
 nav{
   background:blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 
 }
 ul{
   list-style: none;
   display: flex;
+  gap: 24px;
+
 
 }
 a{
@@ -21,4 +27,28 @@ a{
   padding: 32px;
 
 
+}
+a:hover{
+  background: red;
+
+}
+#sidemenu{
+  display: flex;
+  gap: 16px;
+
+
+}
+#sidemenu button{
+  border: none;
+  padding: 16px 48px;
+  font-weight: bold;
+  font-size: 18px;
+
+
+}
+
+@media( max-width:768px){
+  nav{
+    flex-direction: column;
+  }
 }
