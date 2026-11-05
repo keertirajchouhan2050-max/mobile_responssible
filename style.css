@@ -1,25 +1,19 @@
-body {
-  background: red;
-  font-size: 32px;
-}
+*{
+  box-sizing: border-box;
+   padding: 0;
+  margin: 0;
 
-@media( max-width:768px ){
-  body{
-    background-color: yellow;
-    font-size: 16px;
-
-  }
-  img{
-    width: 100%;
-  }
 }
-@media( max-width:480px){
-  body{
-    background: pink;
-    font-size: 700px;
-    color: yellow;
-  }
-    img{
-    width: 100%;
-  }
+nav{
+  background:blueviolet;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+
+}
+a{
+  text-decoration: none;
+  
 }
