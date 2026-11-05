@@ -19,4 +19,7 @@ body {
     font-size: 700px;
     color: yellow;
   }
+    img{
+    width: 100%;
+  }
 }
